@@ -1,5 +1,3 @@
-require 'byebug'
-
 module Habilidades   
     module Volador
         def volar
@@ -135,7 +133,4 @@ class Bee < Insect
     include Alimentacion::Herbivoro
 end
 
-byebug
-
-puts "fin"
 
