@@ -77,7 +77,9 @@ end
 
 
 class Penguin < Bird
-    include Habilidades
+    include Habilidades::Caminante
+    include Habilidades::Volador
+    include Habilidades::Nadador
     include Alimentacion::Carnivoro
 end
 
@@ -88,7 +90,9 @@ class Pigeon < Bird
 end
 
 class Duck < Bird
-    include Habilidades
+    include Habilidades::Caminante
+    include Habilidades::Volador
+    include Habilidades::Nadador
     include Alimentacion::Omnivoro
 end
 
